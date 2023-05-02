@@ -1,0 +1,64 @@
+/* CSS for profile view button */
+.modal-overlay {
+    display: block;
+  }
+  
+  .modal {
+    display: block;
+  }
+.profile-view-button {
+    position: relative; /* Set position to relative */
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* CSS for profile modal */
+  .profile-modal {
+    top: 100%; /* Set top to bottom of profile view button */
+    right: 0; /* Set right to align with right edge of button */
+    width: 200px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 1; /* Set z-index to 1 to make sure it appears above other elements */
+  }
+  
+  /* CSS for profile modal when opened */
+  .profile-modal.open {
+    display: block;
+  }
+  
+  /* CSS for profile modal content */
+  .profile-modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-modal-content h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .profile-modal-content p {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-modal-content button {
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .profile-modal-content button:hover {
+    background-color: #006D87;
+  }
+  
